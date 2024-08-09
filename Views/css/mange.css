@@ -1,0 +1,108 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);;
+}
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 90px;
+  /* width: 280px; */
+  background: #910a0a;
+  overflow: hidden;
+  transition: 1s;
+}
+nav:hover{
+  width: 280px;
+  transition: 1s;
+}
+
+.main .users{
+  display: flex;
+  width: 100%;
+}
+
+.users .card img{
+  width: 100px;
+  height: 90px;
+  border-radius: 70%;
+}
+.users .card h4{
+  text-transform: uppercase;
+}
+.users .card p{
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.users table{
+  margin:  auto;
+}
+
+
+
+/*Attendance List serction  */
+.attendance{
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.attendance-list{
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  background: #dfd1df;
+  border-radius: 20px;
+  box-shadow: 0 30px 40px rgba(37, 7, 37, 0.1);
+}
+.table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 24px;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
+}
+table thead tr{
+  color: #92a8c5;
+  background: #1f206d;
+  text-align: left;
+  font-weight: bold;
+}
+.table th,
+.table td{
+  padding: 10px 10px;
+}
+.table tbody tr{
+  border-bottom: 1px solid #dbc4d9;
+}
+.table tbody tr:nth-of-type(odd){
+  background: #bcabe4;
+}
+
+.table tbody tr:last-of-type{
+  border-bottom: 2px solid #302b2f;
+}
+.table button{
+  padding: 6px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #7f4ad4;
+}
+.table button:hover{
+  background: #5950da;
+  color: #bb9ed6;
+  transition: 0.5rem;
+}
